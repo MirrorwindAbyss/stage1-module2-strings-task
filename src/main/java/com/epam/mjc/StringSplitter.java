@@ -14,7 +14,7 @@ public class StringSplitter {
      * @return List of substrings
      */
     public List<String> splitByDelimiters(String source, Collection<String> delimiters) {
-        throw new UnsupportedOperationException("You should implement this method.");
+
         StringBuilder stringBuilder = new StringBuilder();
         List<String> substrings = new ArrayList<>();
         for (int i = 0; i < source.length(); i++) {

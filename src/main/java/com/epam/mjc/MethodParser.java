@@ -21,7 +21,7 @@ public class MethodParser {
      * @return {@link MethodSignature} object filled with parsed values from source string
      */
     public MethodSignature parseFunction(String signatureString) {
-        throw new UnsupportedOperationException("You should implement this method.");
+
         String[] tokens = signatureString.split("[()]");
         String[] signature = tokens[0].split(" ");
         MethodSignature methodSignature = new MethodSignature(signature[signature.length - 1]);
